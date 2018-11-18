@@ -29,3 +29,64 @@
     background-color: #42AEEC;
     color: #fff;
 }
+a.logo{
+    height: 100px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.bg-light{
+    background-color: white !important;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+div.input-group-prepend:hover{
+
+}
+
+/* tool tip */
+.tooltip-wrap {
+    position: relative;
+  }
+  .tooltip-wrap .tooltip-content {
+    display: none;
+    position: absolute;
+    bottom: 5%;
+    left: 90%;
+    right: 5%;
+    background-color: #fff;
+    padding: .5em;
+    width:280px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    font-size: small;
+    border: 1px black solid;
+    border-radius: 5px;
+  }
+  .tooltip-wrap:hover .tooltip-content {
+    display: block;
+  }
